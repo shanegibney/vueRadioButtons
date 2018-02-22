@@ -49,14 +49,14 @@ a {
             <div class="col-md-3">
                 <ol>
                     <li v-for="item in info" v-if="item.col==='one'">
-                        textt: {{ item.text }}
+                        {{ item.text }}
                     </li>
                 </ol>
             </div>
             <div class="col-md-3">
                 <ol>
                     <li v-for="item in info" v-if="item.col==='two'">
-                        texta: {{ item.text }}
+                        {{ item.text }}
                     </li>
                 </ol>
             </div>
