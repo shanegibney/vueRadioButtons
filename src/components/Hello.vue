@@ -11,7 +11,7 @@ ul {
 }
 
 li {
-      /* display: inline-block; */
+    /* display: inline-block; */
     margin: 0 10px;
 }
 
@@ -44,19 +44,23 @@ a {
             </div>
         </div>
         <div class="row">
-            <div class="col-md-6">
+          <div class="col-md-3">
+          </div>
+            <div class="col-md-3">
                 <ol>
                     <li v-for="item in info" v-if="item.col==='one'">
-                        text: {{ item.text }}, col: {{ item.col }}
+                        textt: {{ item.text }}
                     </li>
                 </ol>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-3">
                 <ol>
-                    <li v-for="item in info" v-if="!item.col==='two'">
-                        text: {{ item.text }}, col: {{ item.col }}
+                    <li v-for="item in info" v-if="item.col==='two'">
+                        texta: {{ item.text }}
                     </li>
                 </ol>
+            </div>
+            <div class="col-md-3">
             </div>
         </div>
     </div>
@@ -90,10 +94,11 @@ export default {
                 col: 'one'
             };
             for (var i = 0; i < this.info.length; i++) {
-              console.log("text: " + this.info[i].text + " col: " + this.info[i].col);
+                console.log("text: " + this.info[i].text + " col: " + this.info[i].col);
             }
             e.preventDefault();
         }
     }
 }
+
 </script>
