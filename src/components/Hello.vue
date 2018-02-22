@@ -38,7 +38,7 @@ a {
                     <input type="radio" id="col2" value="two" v-model="newInfo.col">
                     <br />
                     <br />
-                    <input type="submit" value="Submit text" class="btn btn-info">
+                    <input type="submit" value="Submit Text" class="btn btn-info">
                 </form>
                 <hr>
             </div>
