@@ -1,5 +1,6 @@
 # radiobuttonsmockup
 
+[gh-pages](https://shanegibney.github.io/vueRadioButtons/)
 > testing radio buttons with vue.js
 
 ## Build Setup
